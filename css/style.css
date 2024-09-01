@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --dark-blue: #0E1422;
+    --para: #5C5F6A;
+    --border: #E6E7E8;
+    --searchinput: #878A92;
+    --sub-heading: #474B57;
+    --hero-circle: #eeeeef;
+    --hero-back: #f6f6f6;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.top {
+    background-color: var(--dark-blue);
+    padding: 8px 0px;
+    font-size: 14px;
+
+}
+
+.top-nav {
+    color: var(--para);
+}
+
+
+
+.search {
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    border-radius: 5px;
+
+}
+
+::placeholder {
+
+    color: var(--searchinput);
+}
+
+.colloction-btn {
+    border: none;
+    color: white;
+}
+
+.second {
+    background-color: var(--hero-back);
+
+}
+
+.second2 {
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between;  */
+
+}
+
+.image-side {
+    width: 400px;
+    position: relative;
+    right: 30px;
+    padding: 50px 0px 10px 0px;
+}
+
+.text-side p {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    color: var(--sub-heading)
+}
+
+.colloction-btn {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+
+.icon {
+    background-color: var(--hero-back);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+
+}
+
+.icons {
+    margin-top: 60px;
+}
+
+.icons p {
+    color: var(--para)
+}
+
+.heading p {
+    margin-bottom: 3px;
+    margin-left: -75px;
+    color: var(--searchinput);
+}
+
+.images img {
+    background-color: var(--hero-back);
+    margin-bottom: 20px;
+}
+
+#items h6 {
+    color: var(--dark-blue);
+}
+
+.stock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 25px;
+    margin-top: -10px;
+
+}
+
+.first-head {
+    border: 1px solid var(--border);
+    padding: 3px 10px;
+    border-radius: 15px;
+    color: var(--dark-blue);
+    font-weight: 500;
+
+}
+
+.first-head p {
+    margin-bottom: 0;
+}
+
+.second-head {
+    color: var(--sub-heading);
+}
+
+.heading {
+    margin: 60px 0px;
+}
+
+.image-sidee {}
+
+.image-sidee img {
+    height: 350px;
+}
+
+.fashion {
+    background-image: linear-gradient(120deg, #dadada56 0%, #ffffff 100%);
+    margin: 60px 0px;
+}
+
+.fashion p {
+    color: var(--sub-heading);
+}
+
+.features2 {
+    font-weight: 500;
+    color: black;
+
+    border-color: var(--border);
+
+
+}
+
+#news {
+    background-color: var(--hero-back);
+    padding: 50px;
+}
+
+#news p {
+    color: var(--sub-heading);
+}
+
+.input-s {
+    border: none;
+    border: 1px solid;
+    padding: 4px 0px 4px 10px;
+    border-color: var(--border);
+    background-color: var(--hero-back);
+}
+
+#bottom {
+    margin: 60px 0px;
+}
+
+.vector {
+    border-radius: 5px;
+    padding: 7px 12px;
+    border-color: var(--border);
+}
+
+.bottom-para {
+    color: var(--para);
+}
+
+.bicons>a {
+    color: var(--para);
+    font-size: 24px;
+}
+
+.b-terms {
+    color: var(--para);
+}
+
+.bottom-end {
+    color: var(--para);
+    border-top: 1px solid;
+    border-color: #e6e7e892;
+    padding: 15px 0px;
+}
+
+
+@media screen and (max-width: 4000px) {
+    .second2 h2 {
+        padding-top: 30px;
+        /* display: flex;
+        align-items: center; */
+    }
+
+    .image-side {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .hero-circle {
+        left: 50px;
+    }
+
+    .dot {
+        left: 50px;
+    }
+
+    .icon-1 {
+        margin-bottom: 25px;
+    }
+
+    .icon-2 {
+        margin-bottom: 25px;
+    }
+
+    .heading p {
+        margin-left: 0;
+    }
+
+    .img-center {
+        align-content: center;
+    }
+
+    .stock {
+        justify-content: center;
+        margin-bottom: 35px;
+    }
+
+    .text-sidee {
+        padding-top: 30px;
+    }
+
+    .image-sidee {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .textcenter {
+        text-align: center;
+    }
+
+    .searche {
+        margin-top: 15px;
+    }
+
+    .bicons {
+        margin-bottom: 40px;
+    }
+
+    .company {
+        margin: 40px 0px;
+    }
+
+    .payments {
+        margin-top: 30px;
+    }
+
+    @media screen and (min-width: 0px) {
+        .hero-img {
+            position: absolute;
+            height: 300px;
+            bottom: 0px;
+            right: -26px;
+
+
+        }
+
+        .hero-circle {
+            position: relative;
+            height: 330px;
+            left: 32px;
+            padding-top: 50px;
+        }
+
+        .dot {
+            position: absolute;
+            top: 65px;
+            left: 34px;
+        }
+    
+    .image-side{
+        margin-left: auto;
+        width: 300px;
+    }
+    .colloction-btn{
+        
+    }
+    
+}
+
+@media screen and (min-width:576px) {
+ 
+    .hero-img{
+        position: absolute;
+       height: 380px;
+       bottom: 0px;
+       right: 40px;
+    }
+    .hero-circle{
+        position: relative;
+        height: 400px;
+        padding-top: 50px;
+    }
+    .dot{
+    position: absolute;
+    top: 65px;
+    left: 7px;
+    }
+    .image-side {
+
+        right: 0px;
+        left: 20px;
+        width: 400px;
+    }
+
+    .bicons a {
+        align-items: center;
+    }
+
+    .company {
+        margin-top: 0;
+    }
+
+    .companyy {
+        margin-top: 30px;
+    }
+
+
+
+
+
+}
+
+@media screen and (min-width:768px) {
+    .second2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fashion-side {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .image-sidee {
+        margin-top: 0;
+    }
+
+    .companyy {
+        margin-top: 0;
+    }
+
+
+}
+
+@media screen and (min-width:992px) {
+    .second2 {
+        justify-content: space-around;
+    }
+
+    .searchee {
+        justify-content: space-around;
+    }
+
+    .payments {
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .searchee {
+        justify-content: space-between;
+    }
+
+}
